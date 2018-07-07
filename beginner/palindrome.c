@@ -4,8 +4,7 @@ int main()
 	int a,rem,rev=0,t;
 	scanf("%d",&a);	
 	t=a;
-	if(a<=1000)
-	{
+
 		while(a>0)
 		{
 			rem=a%10;
@@ -19,11 +18,6 @@ int main()
 		else
 		{
 			printf("no");
-		}
-	}
-	else
-	{
-		printf("invalid");
-	}                                                                                       
+		}                                                                                       
 	return 0;
 }  
