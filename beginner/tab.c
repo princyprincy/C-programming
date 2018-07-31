@@ -6,7 +6,7 @@ int main()
 	for(i=1;i<=5;i++)
 	{
 		tab=n*i;
-		printf("%d  ",tab);
+		printf("%d\n",tab);
 	}
 	return 0;
 }
