@@ -6,7 +6,7 @@ int main()
 	scanf("%d",&n2);
 	if(n2<=100000)
 	{
-		for(n=n1;n<=n2;n++)
+		for(n=n1;n<n2;n++)
 		{
 			temp=n;
 			sum=0;
