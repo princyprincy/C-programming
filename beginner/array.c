@@ -1,19 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-	int n,k,i,sum;
-	scanf("%d",&n);
-	scanf("%d",&k);
-	for(i=1;i<=n;i++)
+	int array[100],max,n,i;
+	scanf("%d", &n);
+	for(i=0;i<n;i++)
 	{
-		printf("%d",i);
+		scanf("%d",&array[i]);
 	}
-	
-	for(i=0;i<=k;i++)
+	max= array[0];
+	for(i=1;i<n;i++)
 	{
-		sum=sum+i;
+		if(array[i]>max)
+		{
+		max=array[i];
+		}
 	}
-	printf("\n%d\n",sum);
+	printf("%d",max);
 	return 0;
 }
-	
